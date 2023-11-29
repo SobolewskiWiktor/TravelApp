@@ -1,4 +1,4 @@
-public class GovermentFlight {
+public class GovernmentFlight {
 
     public int hirerName;
 }

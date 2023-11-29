@@ -1,13 +1,16 @@
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+
 public class Main {
     public static void main(String[] args) {
-        /*City[] cities = new City[5];
-        cities[0] = new City("Krakow","Poland",ZoneId.of("Europe/Warsaw"));
+        City[] cities = new City[5];
+        cities[0] = new City("Krakow","Poland", ZoneId.of("Europe/Warsaw"));
         cities[1] = new City("Warsaw","Poland",ZoneId.of("Europe/Warsaw"));
         cities[2] = new City("Berlin","Germany",ZoneId.of("Europe/Berlin"));
         cities[3] = new City("Moskwa","Russia",ZoneId.of("Europe/Moscow"));
         cities[4] = new City("Rejkiawik","Iceland",ZoneId.of("Iceland"));
         //można dodać więcej
-
+/*
         Travel[] travels = new Travel[5];
         LocalDateTime now = LocalDateTime.now();
         travels[0] = new BusRide(now.plusHours(1), 120, cities[0], cities[1], 60, 10, "EL99999");
