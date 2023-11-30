@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class NoFreeSeatsException {
+class NoFreeSeatsException extends Exception {
+    public NoFreeSeatsException(String message) {
+        super(message);
+    }
 }

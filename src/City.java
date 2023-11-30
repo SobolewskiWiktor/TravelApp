@@ -14,4 +14,16 @@ public class City {
       this.country = country;
       this.timeZone = timeZone;
   }
+
+    public boolean isTheSameCountry(City otherCity) {
+        return this.country.equals(otherCity.country);
+    }
+
+    public String getName() {
+      return this.name;
+    }
+
+    public boolean isTheSameTime(City otherCity) {
+        return this.timeZone.equals(otherCity.timeZone);
+    }
 }
